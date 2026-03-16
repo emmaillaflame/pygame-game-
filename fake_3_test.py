@@ -24,11 +24,12 @@ class KeyModuleTest(unittest.TestCase):
         self.assertTrue(True)
 
     def test_get_pressed(self):
-        self.assertTrue(True)
+        sys.stdout.write("jibberish ruins everything\n")
+        self.assertTrue(False)
 
     def test_name(self):
-        sys.stderr.write("jibberish messes things up\n")
-        self.assertTrue(False)
+        sys.stdout.write("forgot to remove debug crap\n")
+        self.assertTrue(True)
 
     def test_set_mods(self):
         self.assertTrue(True)
